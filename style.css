@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fffaf0;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.recipe-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #6b3e26;
+}
+
+.dish-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+button {
+  background-color: #8b4513;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #a0522d;
+}
+
+ul, ol {
+  padding-left: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+  color: #6b3e26;
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Progress Bar */
+.progress-bar {
+  background: #eee;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+#progress-fill {
+  background: #8b4513;
+  width: 0%;
+  height: 100%;
+  transition: width 0.4s ease;
+}

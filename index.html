@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chocolate Cake Recipe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="recipe-card">
+    <h1>🍫 Chocolate Cake</h1>
+    <img src="https://www.expressluv.com/cdn/shop/files/onlinechocolatecakeexpressluv_675895d5-a228-49fa-a258-4dd19a21ff5c.jpg?v=1733952757" 
+         alt="Chocolate Cake" class="dish-image" />
+
+    <div class="info">
+      <span>Prep Time: 45 mins</span>
+      <span>Serves: 6</span>
+    </div>
+
+    <button id="toggle-ingredients">Show Ingredients</button>
+    <ul id="ingredients" class="hidden">
+      <li>1 cup flour</li>
+      <li>1/2 cup cocoa powder</li>
+      <li>1 tsp baking soda</li>
+      <li>2 eggs</li>
+      <li>1/2 cup sugar</li>
+    </ul>
+
+    <button id="toggle-steps">Show Steps</button>
+    <ol id="steps" class="hidden">
+      <li>Preheat oven to 350°F (175°C).</li>
+      <li>Mix dry ingredients.</li>
+      <li>Add eggs and sugar, stir well.</li>
+      <li>Pour into pan and bake for 30 mins.</li>
+    </ol>
+
+    <button id="start-cooking">Start Cooking</button>
+    <button id="next-step" class="hidden">Next Step</button>
+
+    <div class="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
